@@ -1,19 +1,13 @@
+
+
 /*Css page*/
 
 /* page reset*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 body{
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    width: auto;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
-
 }
 
 
@@ -36,51 +30,16 @@ body{
     margin: auto;
 }
 
-
-/*navbar box*/
-
-#navbar-box{
-    display: inline-block;
-    width: auto;
-    min-height: 5vh;
-    color: white;
-    margin: auto;
-}
-
-#navbar-box ul{
-    display: inline-block;
+ul, li a{
     list-style-type: none;
-
-}
-
-#navbar-box ul li{
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    position: relative;
-    left: 350px;
-    margin-inline: 50px;
-    
-}
-
-#navbar-box ul a{
-    display: inline-block;
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    text-align: center;
+    padding: 14px 95px;
+    display: inline-flex;
 
-
-
-}
-
-#navbar-box ul a:link{
-    color: pink;
-}
-
-#navbar-box li a:hover{
-    color: red;
+    
+    
 }
 
 
@@ -95,54 +54,26 @@ body{
 
 }
 
-
-
-.container {
-   display:inline;
-
-  }
-  
-  .item img{
-    display: flow-root;
-    float: left;
-    width: 759px;
-    height: 500px;
-    border-radius: 40px;
-    margin-top: 65px;
-    margin: 50px;
-    margin-left: 50px;
-  }
-
-  .item h1{
-    display: inline;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 40px;
-   margin-left: 50px;
-   
-  }
-
-  .item h2{
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-
-  .item p{
-    display: inline-blocks;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin-left: 50px;
-    margin-top: 20px;
-  }
-
-
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
     gap: 60px;
-    max-width: 1720px;
+    max-width: 1200px;
     margin: 20px auto;
+
 }
+
+article.museum-img{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+article img, article.museum-img{
+    width: 100%;
+    border-radius: 40px;
+    margin: 20px;
+
+}
+
 

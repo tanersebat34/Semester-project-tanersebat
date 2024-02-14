@@ -11,6 +11,7 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
+    width: auto;
     background-color: black;
 
 }
@@ -19,7 +20,7 @@ body{
 /*header box*/
 
 #header-box{
-    max-width: 1720px;
+    background-size: cover;
     height: 597px;
     background-image: url("img/header.png");
     background-repeat: no-repeat;

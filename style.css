@@ -104,7 +104,6 @@ article img, article.museum-img{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 90px;
 }
 ul{
     list-style: none;
@@ -120,7 +119,6 @@ ul{
     padding: 0 15px;
     color: white;
     line-height: 3;
-    
 }
 
 .footer-col h4{
@@ -131,6 +129,4 @@ ul{
     font-weight: 500;
     position: relative;
     
-    
 }
-

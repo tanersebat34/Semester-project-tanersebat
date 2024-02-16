@@ -1,85 +1,115 @@
-
-
-/*Css page*/
-
-/* page reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     line-height: 1.8;
+    overflow-x: hidden;
+    
 }
 
-
-/*header box*/
-
-#header-box{
+.header-box{
+    background-image: url(img/header.png);
     background-size: cover;
     height: 597px;
-    background-image: url("img/header.png");
-    background-repeat: no-repeat;
-    margin: auto;
+    width: 100%;
 }
 
-/*logo*/
-
-#logo{
+.logo{
     position: relative;
     left: 30px;
-    top: 430px;
-    margin: auto;
+    top: 400px;
+
 }
 
 .header, .header-li a{
-    list-style-type: none;
-    color: white;
+    list-style: none;
     text-decoration: none;
-    text-align: center;
-    padding: 14px 95px;
-    display: inline-flex;
-
-    
-    
-}
-
-
-/*icerik*/
-/*index page*/
-#index{
-    box-sizing: content-box;
-    width: 100%;
-    min-height: 100vh;
     color: white;
-    margin: auto;
-
+    text-align: center;
+    display: inline-flex;
+    padding: 14px 95px;
+    
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
-    gap: 60px;
-    max-width: 1200px;
-    margin: 20px auto;
 
-}
 
-article.museum-img{
-    grid-column: span 3;
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-}
+  
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box1,
+  .box2 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .box3,
+  .box4,
+  .box5 {
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 45PX;
+    
+  }
 
-article img, article.museum-img{
-    width: 100%;
+  .box6,
+  .box7,
+  .box8 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+  .box6 img,
+  .box7 img,
+  .box8 img {
+    max-width: 360px;
+    height: 287px;
     border-radius: 40px;
-    margin: 20px;
+    margin-left: 25px;
+  }
+  
+  
+  
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img,
+  .box5 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0 0 10px;
+    color: white;
+    margin-left: 25px
+  }
+  
+  p {
+    margin: 0;
+    color: white;
+    margin-left: 25px;
+  }
+  
 
-}
-/*footer-box*/
-
-
-*{
+  /*FOOTER*/
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,8 +122,6 @@ article img, article.museum-img{
     margin: auto;
 
 }
-
-
 
 .container{
     max-width: cover;
@@ -130,3 +158,4 @@ ul{
     position: relative;
     
 }
+

@@ -166,6 +166,7 @@ main {
   }
   
   p {
+    font-size: 20px;
     margin: 0;
     color: white;
     margin-left: 25px;
@@ -177,28 +178,37 @@ main {
   /*container4*/ 
   .box10{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-
-  }
-
-  .box10, h1 p{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-  }
-
+   }
  
-
-  .box10 img{
-    width: 733px;
-    height: 489px;
-    border-radius: 40px;
-    
-  }
-
+   .box10 img{
+     width: 733px;
+     height: 489px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     
+   }
+   
+   .box10, h1 p{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     
+   }
+  
+   .text-column10{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+     
+     
+ }
+/*-----------*/
   .box11{
    display: flex;
    flex-direction: row-reverse;
@@ -292,6 +302,8 @@ main {
     width: 100%;
     height: auto;
     border-radius: 40px;
+    margin-left: 60px;
+    
     
 }
 
@@ -309,6 +321,7 @@ main {
     align-items: center;
     text-align: justify;
     margin-left: 90px;
+    margin-top: 25px;
      
      
  }

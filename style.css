@@ -88,6 +88,10 @@ main {
   
 }
 
+
+  
+ 
+
 .box3 img,
 .box4 img,
 .box5 img {
@@ -130,13 +134,7 @@ main {
     margin: 45px;
   }
 
-  
 
-
-  
-
-  
-  
  
    /*H1 H2 H3 H4 H5*/
   h1{
@@ -173,6 +171,8 @@ main {
     flex-direction: column;
   }
   
+
+  /*container4*/ 
   .box10{
     display: flex;
     justify-content: space-between;
@@ -213,8 +213,23 @@ main {
     margin-top: 45px;
     
   }
-
+  
+  .box11, h1 p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+  }
  
+  .text-column11{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   text-align: justify;
+    
+    
+}
 
   /*FOOTER*/
   *{

@@ -242,6 +242,7 @@ main {
 .container5{
     display: flex;
     margin: 25px;
+
 }
 .box12{
     display: flex;
@@ -255,16 +256,16 @@ main {
      height: 815px;
      border-radius: 40px;
      display: flex;
-     
      margin-bottom: 45px;
      margin-top: 45px;
      
    }
    
    .box12, h1 p{
-     font-size: 30px;
+     font-size: 20px;
      display: flex;
      justify-content: center;
+     
      
    }
   
@@ -274,10 +275,43 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    margin-left: 90px;
      
      
  }
 
+.container6{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.box13 img{
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    
+}
+
+.box13, h1 p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+.text-column13{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-left: 90px;
+     
+     
+ }
 
   /*FOOTER*/
   *{

@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
     overflow-wrap: break-word;
     overflow-y: auto;
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
@@ -104,36 +105,36 @@ main {
 }
 
   /*CONTAINER 3*/
-  .container3{
+  .container3 {
     display: flex;
     justify-content: space-between;
-       
-    
+    margin: 20px;
   }
-
- 
-
-  .box6,
-  .box7,
-  .box8,
-  .box9 {
-    width: 25%;
+  
+  .box6, .box7, .box8, .box9 {
+    width: 20%;
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 25px;
-    margin-bottom: 45px;
   }
-
-  .box6 img,
-  .box7 img,
-  .box8 img,
-  .box9 img {
-    max-width: 360px;
-    height: 287px;
+  
+  .box6 img, .box7 img, .box8 img, .box9 img {
+    width: 100%;
+    height: auto;
     border-radius: 40px;
-    display: flex;
-    justify-content: space-between;
-    margin: 45px;
+  }
+  
+  .box6 h4, .box7 h4, .box8 h4, .box9 h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .box6 h5, .box7 h5, .box8 h5, .box9 h5 {
+    margin-bottom: 20px;
+  }
+  
+  .box6 p, .box7 p, .box8 p, .box9 p {
+    text-align: justify;
+    font-size: 15px;
   }
 
 

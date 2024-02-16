@@ -32,8 +32,10 @@ body{
     text-decoration: none;
     color: white;
     text-align: center;
-    display: inline-flex;
-    padding: 14px 95px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 0px 80px;
     
 }
 
@@ -230,6 +232,52 @@ main {
     
     
 }
+
+
+/*-------------------exhibition page------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container5{
+    display: flex;
+    margin: 25px;
+}
+.box12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35px;
+   }
+ 
+   .box12 img{
+     width: 800px;
+     height: 815px;
+     border-radius: 40px;
+     display: flex;
+     
+     margin-bottom: 45px;
+     margin-top: 45px;
+     
+   }
+   
+   .box12, h1 p{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     
+   }
+  
+   .text-column12{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+     
+     
+ }
+
 
   /*FOOTER*/
   *{

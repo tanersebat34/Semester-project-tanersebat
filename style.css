@@ -14,16 +14,7 @@ body{
     
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
 
-  .box1,
-  .box2 {
-    width: 100%;
-  }
-}
 
 .header-box{
     background-image: url(img/header.png);
@@ -232,7 +223,7 @@ main {
     width: 699px;
     height: 775px;
     border-radius: 40px;
-    margin-left: 40px; 
+    margin-left: 40px; /* Changed from 400px to 40px */
     margin-bottom: 45px;
     margin-top: 45px;
   }
@@ -248,7 +239,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin: 100px;
+    margin: 100px; /* Added margin */
   }
 
 
@@ -257,40 +248,49 @@ main {
     margin: 0;
     padding: 0;
 }
-.container5 {
+/*.container5 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+  }*/
   
-  .box12 {
+  .box12{
     display: flex;
-    justify-content: space-between;
-    margin: 25px;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .text-column12 {
+    margin-left: 50px;
+    margin-top: 45px;
+   }
+ 
+   .box12 img{
+     width: 600px;
+     height: 615px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     margin-left: 50px;
+     
+   }
    
-    box-sizing: border-box;
-    margin: 250px;
+   .box12, h1 p{
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     
+   }
+  
+   .text-column12{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-  }
-
-  .box12 img{
-    width: 600px;
-    height: 615px;
-    border-radius: 40px;
-    margin-left: 60px;
-    
-    
-}
+    align-items: center;
+    text-align: justify;
+    margin: 100px;
+     
+     
+ }
 
 .container6{
     display: flex;
@@ -298,6 +298,7 @@ main {
     text-align: center;
     margin: auto;
     margin-bottom: 45px;
+    margin-top: 50px;
 }
 
 .box13 img{
@@ -379,6 +380,4 @@ ul{
     position: relative;
     
 }
-
-
 

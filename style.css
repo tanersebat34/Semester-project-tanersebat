@@ -206,43 +206,39 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    margin: 100px;
      
      
  }
 /*-----------*/
-  .box11{
-   display: flex;
-   flex-direction: row-reverse;
-   align-items: center;
+.box11 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
   }
-
-  .box11 img{
+  
+  .box11 img {
     width: 699px;
     height: 775px;
     border-radius: 40px;
-    display: flex;
-    margin-left: 400px; 
+    margin-left: 40px; /* Changed from 400px to 40px */
     margin-bottom: 45px;
     margin-top: 45px;
-    
   }
   
-  .box11, h1 p{
+  .box11 h1, .box11 p {
     font-size: 30px;
-    display: flex;
-    justify-content: center;
     margin-left: 35px;
   }
- 
-  .text-column11{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   align-items: center;
-   text-align: justify;
-    
-    
-}
+  
+  .text-column11 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 100px; /* Added margin */
+  }
 
 
 /*-------------------exhibition page------------------*/

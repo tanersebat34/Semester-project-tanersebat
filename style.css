@@ -186,6 +186,15 @@ main {
     align-items: center;
     margin: 40px;
     
+    
+   }
+ 
+   .box10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+    
    }
  
    .box10 img{
@@ -199,9 +208,10 @@ main {
    }
    
    .box10, h1 p{
-     font-size: 30px;
+     font-size: 25px;
      display: flex;
      justify-content: center;
+     color: white;
      
    }
   
@@ -216,50 +226,42 @@ main {
      
  }
 /*-----------*/
-.box11 {
+.box11{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     margin: 40px;
-  }
+    
+   }
+ 
+   .box11 img{
+     width: 733px;
+     height: 489px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     
+   }
+   
+   .box11, h1 p{
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     color: white;
+     
+   }
   
-  .box11 img {
-    width: 699px;
-    height: 775px;
-    border-radius: 40px;
-    margin-left: 40px; /* Changed from 400px to 40px */
-    margin-bottom: 45px;
-    margin-top: 45px;
-  }
-  
-  .box11 h1, .box11 p {
-    font-size: 30px;
-    margin-left: 35px;
-  }
-  
-  .text-column11 {
+   .text-column11{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin: 100px; 
-  }
-
-  .box10 h1, .box11 h1{
-    margin-bottom: 20px;
-    text-align: center;
-    flex-direction: column;
-    color: white;
-  }
-  
-  .box10 p, .box11 p{
-    text-align: center;
-    font-size: 18px;
-    flex-direction: column;
-    color: white;
-  }
-
+    margin: 100px;
+     
+     
+ }
 
 
 /*-------------------exhibition page------------------*/
@@ -389,6 +391,9 @@ main {
      
      
  } 
+
+
+ /*---------explore page--------------*/
  
  /*FOOTER*/
   *{

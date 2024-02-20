@@ -1,36 +1,33 @@
-*{
+/* Genel stil tanımlamaları burada olacak */
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
     line-height: 1.8;
     overflow-x: hidden;
     overflow-wrap: break-word;
     overflow-y: auto;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
 
-
-
-.header-box{
+.header-box {
     background-image: url(img/header.png);
     background-size: cover;
     height: 597px;
     width: 100%;
 }
 
-.logo{
+.logo {
     position: relative;
     left: 30px;
     top: 400px;
-
 }
 
-.header, .header-li a{
+.header,
+.header-li a {
     list-style: none;
     text-decoration: none;
     color: white;
@@ -40,45 +37,57 @@ body{
     font-size: 30px;
     padding: 0px 80px;
     margin-top: 25px;
-    
 }
 
-
-
-  
 main {
     display: flex;
     flex-wrap: wrap;
-    
-  }
-/*container1*/
+}
 
-.container1{
+/* Medya sorguları buraya eklenecek */
+
+/* Mobil cihazlar için stil */
+@media only screen and (max-width: 767px) {
+    /* Buraya mobil cihazlar için gerekli stil tanımlamalarını yapabilirsiniz */
+}
+
+/* Tablet cihazlar için stil */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Buraya tablet cihazlar için gerekli stil tanımlamalarını yapabilirsiniz */
+}
+
+/* Küçük dizüstü ve masaüstü cihazlar için stil */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Buraya küçük dizüstü ve masaüstü cihazlar için gerekli stil tanımlamalarını yapabilirsiniz */
+}
+
+/* Büyük dizüstü ve masaüstü cihazlar için stil */
+@media only screen and (min-width: 1200px) {
+    /* Buraya büyük dizüstü ve masaüstü cihazlar için gerekli stil tanımlamalarını yapabilirsiniz */
+}
+
+.container1 {
     display: flex;
     justify-content: space-between;
 }
-  .box1,
-  .box2 {
+
+.box1,
+.box2 {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
     margin: 20px;
-  }
+}
 
-  .box1 img,
-  .box2 img{
+.box1 img,
+.box2 img {
     max-width: 100%;
     height: auto;
     border-radius: 40px;
     margin-left: 20px;
+}
 
-  }
-
-  
-
-  /*CONTAINER2*/
-
-.container2{
+.container2 {
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -87,298 +96,199 @@ main {
 .box3,
 .box4,
 .box5 {
-  width: 33.33%;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: 45PX;
-  
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 45px;
 }
-
-
-  
- 
 
 .box3 img,
 .box4 img,
 .box5 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 40px;
-  margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 20px;
 }
 
-  /*CONTAINER 3*/
-  .container3 {
+.container3 {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-  }
-  
-  .box6, .box7, .box8, .box9 {
+}
+
+.box6,
+.box7,
+.box8,
+.box9 {
     width: 20%;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .box6 img, .box7 img, .box8 img, .box9 img {
+}
+
+.box6 img,
+.box7 img,
+.box8 img,
+.box9 img {
     width: 100%;
     height: auto;
     border-radius: 40px;
-  }
-  
-  .box6 h4, .box7 h4, .box8 h4, .box9 h4 {
+}
+
+.box6 h4,
+.box7 h4,
+.box8 h4,
+.box9 h4 {
     margin-top: 20px;
     margin-bottom: 10px;
-  }
-  
-  .box6 h5, .box7 h5, .box8 h5, .box9 h5 {
+}
+
+.box6 h5,
+.box7 h5,
+.box8 h5,
+.box9 h5 {
     margin-bottom: 20px;
-  }
-  
-  .box6 p, .box7 p, .box8 p, .box9 p {
+}
+
+.box6 p,
+.box7 p,
+.box8 p,
+.box9 p {
     text-align: justify;
     font-size: 15px;
-  }
+}
 
+h1 {
+    margin: 0 0 10px;
+    color: white;
+    margin-left: 25px;
+}
 
- 
-   /*H1 H2 H3 H4 H5*/
-  h1{
+h2 {
     margin: 0 0 10px;
     color: white;
-    margin-left: 25px
-  }
-  h2{
+    margin-left: 25px;
+}
+
+h3 {
     margin: 0 0 10px;
     color: white;
-    margin-left: 25px
-  }
-  h3{
+    margin-left: 25px;
+}
+
+h4 {
     margin: 0 0 10px;
     color: white;
-    margin-left: 25px
-  }
-  h4{
+    margin-left: 25px;
+}
+
+h5 {
     margin: 0 0 10px;
     color: white;
-    margin-left: 25px
-  }
-  h5 {
-    margin: 0 0 10px;
-    color: white;
-    margin-left: 25px
-  }
-  
-  p {
+    margin-left: 25px;
+}
+
+p {
     font-size: 20px;
     margin: 0;
     color: white;
     margin-left: 25px;
     display: flex;
     flex-direction: column;
-  }
-  
+}
 
-  /*container4*/ 
-  .box10{
+.box10 {
     display: flex;
     flex-direction: row;
     align-items: center;
-   }
- 
-   .box10 img{
-     width: 733px;
-     height: 489px;
-     border-radius: 40px;
-     display: flex;
-     margin-bottom: 45px;
-     margin-top: 45px;
-     
-   }
-   
-   .box10, h1 p{
-     font-size: 30px;
-     display: flex;
-     justify-content: center;
-     
-   }
-  
-   .text-column10{
+}
+
+.box10 img {
+    width: 733px;
+    height: 489px;
+    border-radius: 40px;
+    display: flex;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.box10,
+h1 p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-column10 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: justify;
     margin: 100px;
-     
-     
- }
-/*-----------*/
+}
+
 .box11 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-  }
-  
-  .box11 img {
+}
+
+.box11 img {
     width: 699px;
     height: 775px;
     border-radius: 40px;
-    margin-left: 40px; /* Changed from 400px to 40px */
+    margin-left: 40px;
     margin-bottom: 45px;
     margin-top: 45px;
-  }
-  
-  .box11 h1, .box11 p {
+}
+
+.box11 h1,
+.box11 p {
     font-size: 30px;
     margin-left: 35px;
-  }
-  
-  .text-column11 {
+}
+
+.text-column11 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin: 100px; /* Added margin */
-  }
-
+    margin: 100px;
+}
 
 /*-------------------exhibition page------------------*/
-*{
-    margin: 0;
-    padding: 0;
-}
-/*.container5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }*/
-  
-  .box12{
+
+.box12 {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 50px;
     margin-top: 45px;
-   }
- 
-   .box12 img{
-     width: 600px;
-     height: 615px;
-     border-radius: 40px;
-     display: flex;
-     margin-bottom: 45px;
-     margin-top: 45px;
-     margin-left: 50px;
-     
-   }
-   
-   .box12, h1 p{
-     font-size: 30px;
-     display: flex;
-     justify-content: center;
-     
-   }
-  
-   .text-column12{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin: 100px;
-     
-     
- }
-
-.container6{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 45px;
-    margin-top: 50px;
 }
 
-.box13 img{
-    width: 100%;
-    height: auto;
+.box12 img {
+    width: 600px;
+    height: 615px;
     border-radius: 40px;
-    margin-left: 60px;
-    
-    
+    display: flex;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    margin-left: 50px;
 }
 
-.box13, h1 p{
-    font-size: 20px;
+.box12,
+h1 p {
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
-    
-    
-  }
-.text-column13{
+    justify-content: center;
+}
+
+.text-column12 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin-left: 90px;
-    margin-top: 25px;
-     
-     
- }
-
-  /*FOOTER*/
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.footer-logo{
-    position: relative;
-    left: 700px;
-    top: 50px;
-    margin: auto;
-
-}
-
-.container{
-    max-width: cover;
-    margin: auto;
-
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-ul{
-    list-style: none;
-}
-.footer-box{
-    background-color: #1f1f1f ;
-    padding: 70px;
-    display: flow-root;
-}
-
-.footer-col{
-    width: 30%;
-    text-align: center;
-    padding: 0 15px;
-    color: white;
-    line-height: 3;
-}
-
-.footer-col h4{
-    font-size: 18px;
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-    font-weight: 500;
-    position: relative;
-    
-}
-
+    margin: 

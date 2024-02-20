@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -220,7 +222,6 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
     margin: 100px;
      
      
@@ -268,6 +269,7 @@ main {
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /*.container5 {
     display: flex;
@@ -394,7 +396,170 @@ main {
 
 
  /*---------explore page--------------*/
+
+
+
+ .box15{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 45px;
+   }
  
+   .box15 img{
+     width: 644px;
+     height: 375px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     margin-left: 50px;
+     
+   }
+   
+   .box15, h1 p{
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     color: white;
+     
+   }
+  
+   .text-column15{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 100px;
+     
+     
+ }
+
+ .box16{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 45px;
+   }
+ 
+   .box16 img{
+     width: 498px;
+     height: 646px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     margin-left: 50px;
+     
+   }
+   
+   .box16, h1 p{
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     color: white;
+     
+   }
+  
+   .text-column16{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 100px;
+     
+     
+ }
+
+ .box17{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 45px;
+   }
+ 
+   .box17 img{
+     width: 458px;
+     height: 589px;
+     border-radius: 40px;
+     display: flex;
+     margin-bottom: 45px;
+     margin-top: 45px;
+     margin-left: 50px;
+     
+   }
+   
+   .box17, h1 p{
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     color: white;
+     
+   }
+  
+   .text-column17{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 100px;
+     
+     
+ }
+
+  .container8{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 45px;
+    margin-top: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.box18 img{
+    width: 1554px;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 190px;
+    
+    
+}
+
+.box18, h1 p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+  }
+.text-column18{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-left: 90px;
+    margin-top: 25px;
+     
+     
+ } 
+
+ .forkids-h{
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ }
+
  /*FOOTER*/
   *{
     margin: 0;

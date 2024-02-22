@@ -418,7 +418,7 @@ main {
      
    }
    
-   .box15, h1 p{
+   .box15, p{
      font-size: 20px;
      display: flex;
      justify-content: center;
@@ -456,7 +456,7 @@ main {
      
    }
    
-   .box16, h1 p{
+   .box16, p{
      font-size: 20px;
      display: flex;
      justify-content: center;
@@ -494,7 +494,7 @@ main {
      
    }
    
-   .box17, h1 p{
+   .box17, p{
      font-size: 20px;
      display: flex;
      justify-content: center;
@@ -533,7 +533,7 @@ main {
     
 }
 
-.box18, h1 p{
+.box18, p{
     font-size: 20px;
     display: flex;
     flex-direction: column;

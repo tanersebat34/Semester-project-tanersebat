@@ -350,49 +350,49 @@ main {
     text-align: justify;
     margin-left: 90px;
     margin-top: 25px;
-     
+  }
+
+
+    /*---------contribution page---------*/
+
 
     /*container7*/
      
- }.container7{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 45px;
-    margin-top: 50px;
-    margin-right: 50px;
-    justify-content: center;
-}
-
-.box14 img{
-    width: 1554px;
-    height: auto;
-    border-radius: 40px;
-    margin-left: 190px;
-    
-    
-}
-
-.box14, h1 p{
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    
-    
+    .container7{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 45px;
+      margin-top: 50px;
   }
-.text-column14{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin-left: 90px;
-    margin-top: 25px;
-     
-     
- } 
+  
+  .box14 img{
+      width: 1450px;
+      height: auto;
+      border-radius: 40px;
+      margin-left: 60px;
+      
+      
+  }
+  
+  .box14, h1 p{
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      
+      
+    }
+  .text-column14{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      margin-left: 90px;
+      margin-top: 25px;
+    }
 
 
  /*---------explore page--------------*/

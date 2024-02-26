@@ -636,6 +636,13 @@ article p{
 }
 
 
+/*-------------privacy-policy page-------------*/
+
+.privacypage p {
+text-align: left;
+line-height: 2;
+}
+
 
  /*FOOTER*/
   *{

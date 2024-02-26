@@ -41,7 +41,7 @@ body{
     flex-direction: row;
     font-size: 30px;
     padding: 0px 80px;
-    margin-top: 25px;
+    margin-top: 10px;
     
 }
 
@@ -574,7 +574,7 @@ article {
   display: flex;
   flex-direction: column;
   position: relative;
-  left: 580px;  
+  left: 500px;  
   flex-wrap: wrap;
   align-items: center;
   max-width: 800px;
@@ -583,14 +583,56 @@ article {
 
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
 
 article p{
   line-height: 1.5;
   font-size: 20px;
+}
+
+.contact-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #ccc;
+}
+
+.contact-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #3e8e41;
 }
 
 
@@ -600,6 +642,8 @@ article p{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-logo{
@@ -637,7 +681,7 @@ ul{
     line-height: 3;
 }
 
-.footer-col h4{
+.footer-col li{
     font-size: 18px;
     color: white;
     text-transform: capitalize;

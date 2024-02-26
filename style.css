@@ -563,6 +563,35 @@ main {
 
 
  /*-----------contact page-----------*/
+ .museumphoto{
+  width: 100%;
+  height: auto;
+  
+ }
+
+ 
+article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 580px;  
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+  padding: 20px;
+  color: white;
+
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p{
+  line-height: 1.5;
+  font-size: 20px;
+}
 
 
 

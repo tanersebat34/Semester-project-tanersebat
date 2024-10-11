@@ -50,35 +50,24 @@ Visitors can explore different exhibits, learn about science through interactive
 Screenshots
 
 	•	Homepage
- ![Ekran Resmi 2024-10-08 11 49 21](https://github.com/user-attachments/assets/f98a93d7-3d44-4f99-8ddc-72ddafb57ef5)
- ![Ekran Resmi 2024-10-08 11 49 37](https://github.com/user-attachments/assets/2ab09f35-ae14-4b82-a80f-7691bdeb449a)
- ![Ekran Resmi 2024-10-08 11 50 11](https://github.com/user-attachments/assets/b4361734-3fd4-45d4-bf50-64882d754d08)
- ![Ekran Resmi 2024-10-08 11 50 30](https://github.com/user-attachments/assets/cdd70165-1820-410f-97d5-b8c88597b45c)
- ![Ekran Resmi 2024-10-08 11 50 40](https://github.com/user-attachments/assets/e1f45241-5fb8-415b-a6b8-237925dd152c)
-
+ ![Ekran Resmi 2024-10-11 17 35 48](https://github.com/user-attachments/assets/8cdc638d-9de5-4abc-adb8-447c2df2667d)
+ ![Ekran Resmi 2024-10-11 17 35 56](https://github.com/user-attachments/assets/80e8b1eb-8996-4ad0-ac26-51f38818531d)
+ ![Ekran Resmi 2024-10-11 17 36 11](https://github.com/user-attachments/assets/4f215597-5194-4fa8-96ad-2cc15dc386ac)
 
 
 	•	Exhibitions
- ![Ekran Resmi 2024-10-08 11 55 30](https://github.com/user-attachments/assets/52bab15c-fd9d-4631-8cdd-d288235e43de)
- ![Ekran Resmi 2024-10-08 11 55 39](https://github.com/user-attachments/assets/eaed7659-8bdb-499c-995e-9bb976db3bba)
-
-
- 
- 
+ ![Ekran Resmi 2024-10-11 17 38 01](https://github.com/user-attachments/assets/4e60b250-441b-4093-bbff-45da65e1b642)
+ ![Ekran Resmi 2024-10-11 17 38 42](https://github.com/user-attachments/assets/5bad090c-94d6-4a23-9d9d-1a9b757b2a18)
+ ![Ekran Resmi 2024-10-11 17 38 50](https://github.com/user-attachments/assets/cf58b9b1-93b6-41df-84e5-654dc6b8dbe4)
  
 	•	Contribution
- ![Ekran Resmi 2024-10-08 11 56 56](https://github.com/user-attachments/assets/b0114523-aab3-4c10-8d9a-46f3979da6f2)
- ![Ekran Resmi 2024-10-08 11 57 07](https://github.com/user-attachments/assets/26186522-3f10-4164-9664-c323ba350c7b)
+![Ekran Resmi 2024-10-11 17 39 53](https://github.com/user-attachments/assets/9f39341a-70c6-43f7-a619-5f30d22f3b3f)
+![Ekran Resmi 2024-10-11 17 40 04](https://github.com/user-attachments/assets/eac60508-ab58-4999-91bd-c897518e6280)
 
-
- 
  
 	•	Explorer
- ![Ekran Resmi 2024-10-08 11 58 03](https://github.com/user-attachments/assets/3b828c1b-5009-4663-88ea-c307f95ebec9)
- ![Ekran Resmi 2024-10-08 11 58 09](https://github.com/user-attachments/assets/de1f9a75-8f40-483b-aa5b-7c781a117b3d)
- ![Ekran Resmi 2024-10-08 11 58 16](https://github.com/user-attachments/assets/3ef2f8a4-cd9c-4ec9-b51f-ed95ae34a61c)
- ![Ekran Resmi 2024-10-08 11 58 23](https://github.com/user-attachments/assets/b4cb9f1d-6633-4110-a4d6-d3acd28503ed)
- ![Ekran Resmi 2024-10-08 11 58 38](https://github.com/user-attachments/assets/752c7973-95bf-468f-941a-bb2e2d616387)
+ ![Ekran Resmi 2024-10-11 17 41 35](https://github.com/user-attachments/assets/07d8cd64-71db-4624-8027-56411c57efda)
+
 
 
  Contributing

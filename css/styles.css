@@ -1,0 +1,1245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100PX;
+    margin: 0;
+  }
+.header {
+    background-image: url(../assets/img/header.png); /* Header background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: absolute; /* Absolute positioning to place it freely on the page */
+    bottom: 80px; /* Adjust this value to place it closer or further from the bottom */
+    left: 80px; /* Adjust this value to place it closer or further from the left */
+    max-width: 150px; /* Adjust logo size */
+    height: auto;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: black; /* Navbar background color */
+    padding: 15px 0; /* Vertical padding for spacing */
+    text-align: center; /* Centers the navbar items */
+    margin: 0; /* Navbar'ın üstteki görsele yapışması için margin sıfırlandı */
+    position: relative; /* Header ile doğrudan bağlantı kurması için */
+    top: -5px; /* Eğer hala bir boşluk varsa, negatif margin ile kaldır */
+}
+
+.navbar ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the nav items horizontally */
+    gap: 50px; /* Spacing between nav items */
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2rem; /* Font size for the nav items */
+    text-transform: uppercase; /* Makes text uppercase */
+}
+
+.navbar a:hover {
+    color: #00aced; /* Changes color on hover */
+}
+
+.header {
+    margin-bottom: 0; /* Header ile navbar arasında boşluk olmaması için */
+    padding-bottom: 0;
+}
+
+.info-section {
+    padding: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between; /* İki kutuyu yan yana koyar ve aralarında boşluk bırakır */
+    gap: 20px; /* Kutu aralığı */
+}
+
+.info-box {
+    width: 48%; /* Her kutunun genişliğini %48 yapar, bu sayede iki sütun olur */
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Görsel ile metin arasında boşluk bırakır */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.features-section {
+    padding: 50px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between; /* Kutuların aralarına boşluk koyar */
+    gap: 20px; /* Kutular arasındaki boşluk */
+}
+
+.feature-box {
+    width: 32%; /* Her kutunun genişliği, üç sütunlu görünüm için */
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.exhibits-section {
+    padding: 50px;
+}
+
+.exhibits-container {
+    display: flex;
+    justify-content: space-between; /* Kutuların arasında boşluk bırakır */
+    gap: 20px; /* Kutular arasındaki boşluk */
+}
+
+.exhibit-box {
+    width: 23%; /* Dört sütun için her kutunun genişliğini %23 yapıyoruz */
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.exhibit-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.food-drink-section {
+    padding: 50px;
+}
+
+.food-drink-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Görsel ve içerik dikeyde ortalansın */
+    gap: 20px; /* İki sütun arasında boşluk */
+}
+
+.food-drink-image {
+    width: 45%; /* Görselin kapladığı alan */
+}
+
+.food-drink-content {
+    width: 45%; /* İçeriğin kapladığı alan */
+    text-align: left;
+}
+
+.food-drink-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.food-drink-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.accessibility-section {
+    padding: 50px;
+}
+
+.accessibility-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* İçerik ve görsel dikeyde ortalanır */
+    gap: 20px; /* Sütunlar arasında boşluk */
+}
+
+.accessibility-content {
+    width: 45%; /* Metin için ayrılan alan */
+    text-align: left;
+}
+
+.accessibility-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.accessibility-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.accessibility-image {
+    width: 45%; /* Görsel için ayrılan alan */
+}
+
+.shop-section {
+    padding: 50px;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* İçerik ve görsel dikeyde ortalanır */
+    gap: 20px; /* Sütunlar arasında boşluk */
+}
+
+.shop-image {
+    width: 45%; /* Görsel için ayrılan alan */
+}
+
+.shop-content {
+    width: 45%; /* İçerik için ayrılan alan */
+    text-align: left;
+}
+
+.image {
+    width: 100%;
+    height: 700px; /* Kafe görseli ile aynı yüksekliği ayarlıyoruz */
+    border-radius: 10px;
+    object-fit: cover; /* Görüntünün orantılı kesilmesini sağlar */
+}
+
+
+
+/* exhibition css*/
+
+/* Cosmology Section */
+.cosmology-section {
+    padding: 50px;
+}
+
+.cosmology-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* İçerik ve görsel dikeyde ortalanır */
+    gap: 20px; /* Sütunlar arasında boşluk */
+}
+
+.cosmology-image {
+    width: 45%; /* Görsel için ayrılan alan */
+}
+
+.cosmology-content {
+    width: 45%; /* İçerik için ayrılan alan */
+    text-align: left;
+}
+
+.cosmology-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cosmology-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Evolution Section */
+.evolution-section {
+    padding: 50px;
+}
+
+.evolution-container {
+    text-align: center;
+}
+
+.evolution-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.evolution-content {
+    max-width: 900px; /* Metin genişliği sınırlandırılır */
+    margin: 0 auto; /* Ortalanır */
+    padding: 20px;
+}
+
+.evolution-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.evolution-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* Biology Section */
+.biology-section {
+    padding: 50px;
+}
+
+.biology-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* İçerik ve görsel dikeyde ortalanır */
+    gap: 20px; /* Sütunlar arasında boşluk */
+}
+
+.biology-image {
+    width: 45%; /* Görsel için ayrılan alan */
+}
+
+.biology-content {
+    width: 45%; /* İçerik için ayrılan alan */
+    text-align: left;
+}
+
+.biology-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.biology-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Robotics Section */
+.robotics-section {
+    padding: 50px;
+}
+
+.robotics-container {
+    text-align: center;
+}
+
+.robotics-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.robotics-content {
+    max-width: 900px; /* Metin genişliği sınırlandırılır */
+    margin: 0 auto; /* Ortalanır */
+    padding: 20px;
+}
+
+.robotics-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.robotics-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Ecology Section */
+.ecology-section {
+    padding: 50px;
+}
+
+.ecology-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* İçerik ve görsel dikeyde ortalanır */
+    gap: 20px; /* Sütunlar arasında boşluk */
+}
+
+.ecology-image {
+    width: 45%; /* Görsel için ayrılan alan */
+}
+
+.ecology-content {
+    width: 45%; /* İçerik için ayrılan alan */
+    text-align: left;
+}
+
+.ecology-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.ecology-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Special Events Header */
+.events-header {
+    background-color: black; /* Arka plan rengi */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.events-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px; /* Harf aralığı artırılmış */
+}
+
+/* Dino Night Section */
+.dinonight-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.dinonight-container {
+    max-width: 1200px; /* Görselin genişlemesi için genişlik artırıldı */
+    margin: 0 auto;
+}
+
+.dinonight-image {
+    margin-bottom: 20px;
+}
+
+.dinonight-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dinonight-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dinonight-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Online Event Section */
+.online-event-section {
+    padding: 50px;
+}
+
+.online-event-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* Sütunlar arasındaki boşluk */
+}
+
+.online-event-image {
+    width: 45%; /* Görselin genişliği */
+}
+
+.online-event-image img {
+    width: 745.09px;
+    height: 759.06px;
+    border-radius: 15px; /* Köşeleri yuvarlatıldı */
+}
+
+.online-event-content {
+    width: 45%; /* İçerik genişliği */
+    text-align: left;
+}
+
+.online-event-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.online-event-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.online-event-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: white;
+}
+
+/* Energetica Exhibition Section */
+.energetica-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.energetica-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.energetica-image {
+    margin-bottom: 20px;
+}
+
+.energetica-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Köşelerde daha yumuşak bir geçiş için */
+}
+
+.energetica-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Daha belirgin bir başlık görünümü için */
+}
+
+.energetica-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Görsel ve yazı arasındaki uyumu sağlamak için marginler ayarlandı */
+
+/* Support Section */
+.support-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.support-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.support-image {
+    margin-bottom: 20px;
+}
+
+.support-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Köşelerde yumuşak geçiş */
+}
+.support-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.support-content h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.support-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Volunteer Section */
+.volunteer-section {
+    padding: 50px;
+    text-align: left;
+    color: white;
+}
+
+.volunteer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 20px; /* Görsel ve metin arasındaki boşluk */
+}
+
+.volunteer-content {
+    width: 50%; /* İçerik kısmı genişliği */
+}
+
+.volunteer-content h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.volunteer-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.volunteer-image {
+    width: 45%; /* Görsel kısmı genişliği */
+}
+
+.volunteer-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Köşelerde yumuşak geçiş */
+}
+
+
+/* Internship Section */
+.internship-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.internship-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Görsel ve metin arasındaki boşluk */
+}
+
+.internship-image {
+    width: 60%; /* Görsel kısmı genişliği */
+}
+
+.internship-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Görsele yuvarlak köşeler */
+}
+
+.internship-content {
+    max-width: 80%; /* İçerik kısmı genişliği */
+    text-align: center; /* Metni ortala */
+}
+
+.internship-content h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.internship-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+.forkids-section {
+    padding: 50px;
+}
+
+.forkids-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.forkids-image {
+    width: 45%; /* Görselin genişliği */
+}
+
+.forkids-image img {
+    width: 100%;
+    border-radius: 20px; /* Köşeleri yuvarlat */
+}
+
+.forkids-content {
+    width: 45%; /* İçeriğin genişliği */
+    text-align: left;
+    color: white;
+}
+
+.forkids-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.forkids-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+.dinosaur-section {
+    padding: 50px;
+}
+
+.dinosaur-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.dinosaur-image {
+    width: 45%; /* Görselin genişliği */
+}
+
+.dinosaur-image img {
+    width: 80%;
+    border-radius: 20px; /* Köşeleri yuvarlat */
+}
+
+.dinosaur-content {
+    width: 45%; /* İçeriğin genişliği */
+    text-align: left;
+    color: white;
+}
+
+.dinosaur-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.young-stars-section {
+    padding: 50px;
+}
+
+.young-stars-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.young-stars-content {
+    width: 50%; /* Metin için genişlik */
+    text-align: left;
+    color: white;
+}
+
+.young-stars-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.young-stars-image {
+    width: 40%; /* Görsel için genişlik */
+}
+
+.young-stars-image img {
+    width: 100%;
+    border-radius: 20px; /* Köşeleri yuvarlat */
+}
+
+.holiday-club-section {
+    padding: 50px;
+}
+
+.holiday-club-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.holiday-club-image {
+    width: 35%; /* Görselin genişliği küçültüldü */
+}
+
+.holiday-club-image img {
+    width: 100%;
+    height: auto; /* Yükseklik otomatik olarak orantılanacak */
+    border-radius: 20px; /* Köşeleri yuvarlat */
+    object-fit: cover; /* Görseli orantılı şekilde küçült */
+}
+
+.holiday-club-content {
+    width: 60%; /* Metin alanı genişliği */
+    text-align: left;
+    color: white;
+}
+
+.holiday-club-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.teachers-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.teachers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.teachers-image img {
+    width: 60%; /* Görselin genişliği */
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.teachers-content {
+    width: 80%;
+    text-align: center;
+}
+
+.teachers-content h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.teachers-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.researchers-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.researchers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.researchers-image img {
+    width: 70%; /* Görselin genişliği */
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.researchers-content {
+    width: 80%;
+    text-align: center;
+}
+
+.researchers-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.researchers-container h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.getting-here-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.getting-here-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.getting-here-image img {
+    width: 100%; /* Görselin genişliği */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.getting-here-content {
+    width: 80%;
+    text-align: center;
+}
+
+.getting-here-content h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.getting-here-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.location-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.location-content {
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+
+.location-map img {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.admission-section {
+    padding: 50px;
+    text-align: center; /* Metin merkezde hizalanır */
+}
+
+.admission-container {
+    max-width: 800px; /* İçeriğin maksimum genişliği ayarlandı */
+    margin: 0 auto; /* Ortalamak için */
+    color: white; /* Yazı rengi beyaz */
+}
+
+.admission-container h2 {
+    font-size: 2.5rem; /* Başlık boyutu */
+    margin-bottom: 20px; /* Başlık ile metin arasında boşluk */
+}
+
+.admission-container p {
+    font-size: 1.2rem; /* Metin boyutu */
+    line-height: 1.6; /* Satır yüksekliği */
+    margin-bottom: 15px; /* Paragraflar arasında boşluk */
+}
+
+.contact-section {
+    padding: 50px;
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.contact-form {
+    max-width: 600px; /* Maximum width of the form */
+    margin: 0 auto; /* Center the form */
+    display: flex;
+    flex-direction: column; /* Vertical stacking of form elements */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form fields */
+}
+
+.form-group label {
+    display: block; /* Make label take full width */
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold text */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border style */
+    background-color: #444; /* Background color for inputs */
+    color: white; /* Text color inside inputs */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #00aced; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #007bb5; /* Darker shade on hover */
+}
+
+
+.privacy-policy-section {
+    padding: 50px; /* Padding for the section */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+}
+
+.privacy-policy-section h2 {
+    font-size: 2.5rem; /* Font size for main heading */
+    margin-bottom: 20px; /* Space below main heading */
+    text-align: center; /* Center align the heading */
+}
+
+.last-update {
+    text-align: center; /* Center align last update text */
+    font-style: italic; /* Italic text style */
+}
+
+.privacy-policy-section h3 {
+    font-size: 1.8rem; /* Font size for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+}
+
+.privacy-policy-section p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for readability */
+    margin: 15px 0; /* Space above and below paragraphs */
+}
+
+.privacy-policy-section ul {
+    list-style-type: disc; /* Bullet points for lists */
+    margin-left: 20px; /* Indentation for lists */
+}
+
+.privacy-policy-section li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+
+.terms-conditions-section {
+    padding: 50px; /* Padding for the section */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+}
+
+.terms-conditions-section h2 {
+    font-size: 2.5rem; /* Font size for main heading */
+    margin-bottom: 20px; /* Space below main heading */
+    text-align: center; /* Center align the heading */
+}
+
+.last-update {
+    text-align: center; /* Center align last update text */
+    font-style: italic; /* Italic text style */
+}
+
+.terms-conditions-section h3 {
+    font-size: 1.8rem; /* Font size for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+}
+
+.terms-conditions-section p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for readability */
+    margin: 15px 0; /* Space above and below paragraphs */
+}
+
+.terms-conditions-section ul {
+    list-style-type: disc; /* Bullet points for lists */
+    margin-left: 20px; /* Indentation for lists */
+}
+
+.terms-conditions-section li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+
+.footer-section {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* İçeriğin genişliği sınırlandırıldı */
+    margin: 0 auto; /* İçeriği ortalamak için */
+    padding: 0 20px; /* Sağ ve sol taraflarda boşluk bırakmak için */
+}
+
+.footer-column {
+    width: 30%; /* Her sütunun genişliği */
+    text-align: left;
+    padding-left: 20px; /* Sütunların içeriğinin sola çok yakın olmaması için boşluk ekledik */
+    color: white; /* Yazı rengini beyaz yapar */
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: white; /* Bağlantı metin rengini beyaz yapar */
+    text-decoration: none; /* Bağlantıların altını çizer */
+}
+
+.footer-column a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altını çizer */
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .footer-container {
+        flex-direction: column; /* Footer sütunları dikey hizalanır */
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%; /* Sütun genişliği tam genişlik */
+        padding-left: 0; /* Sol iç boşluk kaldırılır */
+        text-align: center; /* Yazılar ortalanır */
+        margin-bottom: 20px; /* Sütunlar arasında boşluk eklenir */
+    }
+}
+
+@media (max-width: 992px) {
+    .info-container, .features-container, .exhibits-container, .food-drink-container, .accessibility-container, .shop-container, .cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container, .dinonight-container, .online-event-container, .energetica-container, .support-container, .volunteer-container, .internship-container, .forkids-container, .dinosaur-container, .young-stars-container, .holiday-club-container, .teachers-container, .researchers-container, .getting-here-container, .location-container {
+        flex-direction: column; /* Sütunlar dikey hizalanır */
+        align-items: center; /* Ortaya hizalanır */
+    }
+
+    .info-box, .feature-box, .exhibit-box, .food-drink-content, .accessibility-content, .shop-content, .cosmology-content, .evolution-content, .biology-content, .robotics-content, .ecology-content, .dinonight-content, .online-event-content, .energetica-content, .support-content, .volunteer-content, .internship-content, .forkids-content, .dinosaur-content, .young-stars-content, .holiday-club-content, .teachers-content, .researchers-content, .getting-here-content {
+        width: 100%; /* Tam genişlik kullan */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem; /* Başlık boyutu küçültülür */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Başlık boyutu küçültülür */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Alt başlık boyutu küçültülür */
+    }
+
+    .footer-column h3, .footer-column p {
+        font-size: 1rem; /* Footer font boyutu */
+    }
+
+    button {
+        font-size: 1rem; /* Buton font boyutu */
+    }
+}
+
+@media (max-width: 576px) {
+    /* En küçük cihazlar için ek ayarlamalar */
+    .navbar ul {
+        flex-direction: column; /* Navigasyon menüsü dikey hizalanır */
+        gap: 20px; /* Boşluk artırılır */
+    }
+
+    .info-box, .feature-box, .exhibit-box {
+        padding: 15px; /* Kutuların içeriği sıkışmasın diye boşluk ayarı */
+    }
+}

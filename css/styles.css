@@ -17,11 +17,11 @@ h1 {
     height: 100PX;
     margin: 0;
   }
-.header {
+  .header {
     background-image: url(../assets/img/header.png); /* Header background */
-    background-size: cover;
+    background-size: cover; /* veya contain kullanabilirsiniz */
     background-position: center;
-    height: 100vh;
+    height: 100vh; /* Mobilde daha küçük yapmak için bunu 50vh gibi ayarlayabilirsiniz */
     position: relative;
     color: white;
 }
@@ -1200,13 +1200,72 @@ button:hover {
 }
 
 @media (max-width: 992px) {
-    .info-container, .features-container, .exhibits-container, .food-drink-container, .accessibility-container, .shop-container, .cosmology-container, .evolution-container, .biology-container, .robotics-container, .ecology-container, .dinonight-container, .online-event-container, .energetica-container, .support-container, .volunteer-container, .internship-container, .forkids-container, .dinosaur-container, .young-stars-container, .holiday-club-container, .teachers-container, .researchers-container, .getting-here-container, .location-container {
+    .info-container,
+    .features-container,
+    .exhibits-container,
+    .food-drink-container,
+    .accessibility-container,
+    .shop-container,
+    .cosmology-container,
+    .evolution-container,
+    .biology-container,
+    .robotics-container,
+    .ecology-container,
+    .dinonight-container,
+    .online-event-container,
+    .energetica-container,
+    .support-container,
+    .volunteer-container,
+    .internship-container,
+    .forkids-container,
+    .dinosaur-container,
+    .young-stars-container,
+    .holiday-club-container,
+    .teachers-container,
+    .researchers-container,
+    .getting-here-container,
+    .location-container {
         flex-direction: column; /* Sütunlar dikey hizalanır */
         align-items: center; /* Ortaya hizalanır */
     }
 
-    .info-box, .feature-box, .exhibit-box, .food-drink-content, .accessibility-content, .shop-content, .cosmology-content, .evolution-content, .biology-content, .robotics-content, .ecology-content, .dinonight-content, .online-event-content, .energetica-content, .support-content, .volunteer-content, .internship-content, .forkids-content, .dinosaur-content, .young-stars-content, .holiday-club-content, .teachers-content, .researchers-content, .getting-here-content {
+    .info-box,
+    .feature-box,
+    .exhibit-box,
+    .food-drink-content,
+    .accessibility-content,
+    .shop-content,
+    .cosmology-content,
+    .evolution-content,
+    .biology-content,
+    .robotics-content,
+    .ecology-content,
+    .dinonight-content,
+    .online-event-content,
+    .energetica-content,
+    .support-content,
+    .volunteer-content,
+    .internship-content,
+    .forkids-content,
+    .dinosaur-content,
+    .young-stars-content,
+    .holiday-club-content,
+    .teachers-content,
+    .researchers-content,
+    .getting-here-content {
         width: 100%; /* Tam genişlik kullan */
+        padding: 15px; /* Kutuların içeriği sıkışmasın diye boşluk ayarı */
+    }
+
+    .food-drink-container {
+        flex-direction: column; /* Dikey hizalama */
+        align-items: center; /* Ortaya hizalama */
+        gap: 10px; /* Boşluk */
+    }
+
+    .food-drink-image,
+    .food-drink-content {
+        width: 100%; /* Her iki alan da tam genişlikte */
     }
 }
 
@@ -1223,12 +1282,17 @@ button:hover {
         font-size: 1.2rem; /* Alt başlık boyutu küçültülür */
     }
 
-    .footer-column h3, .footer-column p {
+    .footer-column h3,
+    .footer-column p {
         font-size: 1rem; /* Footer font boyutu */
     }
 
     button {
         font-size: 1rem; /* Buton font boyutu */
+    }
+
+    .image {
+        height: auto; /* Yükseklik otomatik ayarlanır */
     }
 }
 
@@ -1239,7 +1303,30 @@ button:hover {
         gap: 20px; /* Boşluk artırılır */
     }
 
-    .info-box, .feature-box, .exhibit-box {
+    .info-box,
+    .feature-box,
+    .exhibit-box {
         padding: 15px; /* Kutuların içeriği sıkışmasın diye boşluk ayarı */
     }
+
+    .shop-container,
+    .accessibility-container,
+    .food-drink-container,
+    .biology-container,
+    .ecology-container,
+    .robotics-container {
+        flex-direction: column; /* Dikey hizalama */
+        align-items: center; /* Ortaya hizalama */
+    }
+
+    .shop-image,
+    .accessibility-image,
+    .food-drink-image,
+    .biology-image,
+    .ecology-image,
+    .robotics-image {
+        width: 100%; /* Görsellerin genişliği %100 */
+        height: auto; /* Yükseklik otomatik */
+    }
 }
+
